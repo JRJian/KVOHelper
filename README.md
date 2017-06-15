@@ -35,5 +35,3 @@ Key-value coding (KVC) 和 key-value observing (KVO) 是两种能让我们驾驭
 ```
 
 即可完成KVO。不需要其他任何代码。
-
-[源码请戳这里](https://github.com/JRJian/KVOHelper)
