@@ -1,5 +1,8 @@
-# JJKeyValueObserver
-对系统的KVO进行封装，更好更便捷的使用KVO。
+Key-value coding (KVC) 和 key-value observing (KVO) 是两种能让我们驾驭 Objective-C 动态特性并简化代码的机制。
+
+##KVO & KVC精讲
+
+[请看这边文章，是国外的大神写的](https://www.objccn.io/issue-7-3/)
 
 系统的KVO：
 
@@ -21,7 +24,7 @@
 }
 ```
 
-这种方式不仅需要写的代码多，而且阅读体验差。因此 JJKeyValueObserver 诞生。
+这种方式不仅需要写的代码多，而且阅读体验差。因此 [JJKeyValueObserver](https://github.com/JRJian/KVOHelper) 诞生。
 
 您只需要
 
@@ -31,4 +34,6 @@
     }];
 ```
 
-即可完成KVO。不需要其他任何代码
+即可完成KVO。不需要其他任何代码。
+
+[源码请戳这里](https://github.com/JRJian/KVOHelper)
